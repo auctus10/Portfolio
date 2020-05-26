@@ -16,3 +16,8 @@
     width: 300px !important;
     height: 300px !important;
 }
+
+.pointer-icon{
+    animation: bounce 2s infinite;
+    margin: 2.2rem !important;
+}
