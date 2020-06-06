@@ -1,5 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Element } from 'react-scroll'
+ 
 import './App.css';
 import HeadBanner from './components/head-banner';
 import About from './components/about';
@@ -8,7 +9,9 @@ function App() {
   return (
     <div className="App">
       <HeadBanner />
-      <About />
+      <Element id="about" name="about" className="element">
+        <About />
+      </Element> 
     </div>
   );
 }
