@@ -1,22 +1,22 @@
 export default [
     {
-        text: "About me",
-        link: "about"
+        text: 'About me',
+        link: 'about'
     },
     {
-        text: "Skills",
-        link: "skills"
+        text: 'Skills',
+        link: 'skills'
     },
     {
-        text: "Projects",
-        link: "projects"
+        text: 'Projects',
+        link: 'projects'
     },
     {
-        text: "Gallery",
-        link: "gallery"
+        text: 'Gallery',
+        link: 'gallery'
     },
     {
-        text: "Contact",
-        link: "contact"
+        text: 'Contact',
+        link: 'contact'
     },
 ]
