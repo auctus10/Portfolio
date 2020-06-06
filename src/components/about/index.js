@@ -33,7 +33,7 @@ const About = () => {
           {socialsList.map((i) => (
             <Grid.Column>
               <a target='_blank' rel='noopener noreferrer' href={i.link}>
-                <Image src={i.image}  />      
+                <Image className='social-image' src={i.image}  />      
               </a>
             </Grid.Column>
         ))}
