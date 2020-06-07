@@ -7,7 +7,7 @@ import './index.css'
 
 const About = () => {
   return (
-    <div id="about" className="head-banner">
+    <div id="about" className="Screen-Container">
       <Header as='h1' size='massive' color='orange'>About me!</Header>
       <Container text className='text-container'>
         <p>
