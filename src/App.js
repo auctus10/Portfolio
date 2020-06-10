@@ -12,10 +12,10 @@ function App() {
     <div className="App">
       <Grid relaxed>
         <Grid.Row>
-          <Grid.Column mobile={16}><HeadBanner /></Grid.Column>
+          <Grid.Column><HeadBanner /></Grid.Column>
         </Grid.Row>
         <Grid.Row>
-          <Grid.Column  mobile={16}>
+          <Grid.Column>
             <Element id="about" name="about" className="element">
               <About />
             </Element>
@@ -24,7 +24,7 @@ function App() {
           </Grid.Column>
         </Grid.Row>
         <Grid.Row>
-          <Grid.Column  mobile={16}>
+          <Grid.Column>
             <Element id="skills" name="skills" className="element">
               <TechSkills />
             </Element>
