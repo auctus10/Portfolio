@@ -53,6 +53,7 @@
   align-items: center !important;
   justify-content: center !important;
   flex-direction: column;
+  margin-top: 3rem;
 }
 
 html, body {

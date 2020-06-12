@@ -31,11 +31,9 @@ const About = () => {
         </p>
         <Grid style={{marginTop: '0.5rem'}} centered>
           {socialsList.map((i) => (
-            <Grid.Column>
-              <a target='_blank' rel='noopener noreferrer' href={i.link}>
-                <Image className='social-image' src={i.image}  />      
-              </a>
-            </Grid.Column>
+            <a className="social-anchor" target='_blank' rel='noopener noreferrer' href={i.link}>
+              <Image size='mini' className='social-image' src={i.image}  />      
+            </a>
         ))}
         </Grid>
       </Container>
