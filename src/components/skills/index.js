@@ -7,12 +7,12 @@ import './index.css';
 
 const TechSkills = () => {
     return(
-      <div> 
+      <div className='Screen-Container'> 
         {' '}
         <Header as='h1' size='massive' color='orange'>Things that I know!</Header>
-        <Grid centered className="Screen-Container tech-container">
+        <Grid centered className="tech-container">
           {techSkillsData.map((item) => (
-            <Card className='skill-cards'>
+            <Card target='_blank' rel='noopener noreferrer' href={item.url} className='skill-cards'>
               <Card.Content>
                 <Image
                   size='mini'
