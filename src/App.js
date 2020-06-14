@@ -6,6 +6,7 @@ import { Grid } from 'semantic-ui-react';
 import HeadBanner from './components/head-banner';
 import About from './components/about';
 import TechSkills from './components/skills';
+import Gallary from './components/gallary';
 
 function App() {
   return (
@@ -29,7 +30,14 @@ function App() {
               <TechSkills />
             </Element>
           </Grid.Column>
-        </Grid.Row>      
+        </Grid.Row>     
+        <Grid.Row>
+          <Grid.Column>
+            <Element id="gallery" name="gallery" className="element">
+              <Gallary />
+            </Element>
+          </Grid.Column>
+        </Grid.Row>       
       </Grid>
     </div>
   );
