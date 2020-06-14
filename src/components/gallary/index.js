@@ -17,18 +17,18 @@ const Gallary = () => {
         <Header as='h1' size='massive' color='orange'>Here are some of the best Screenshots and Photos I have clicked !!</Header>
         <Grid>
           <Grid.Column className='gallery-coloumn'>
-            <Card onClick={() => setGamesModal(true)} link>
-              <Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' wrapped ui={false} />
+            <Card style={{background: 'silver'}} onClick={() => setGamesModal(true)} link>
+              <Image src='https://steamuserimages-a.akamaihd.net/ugc/936061699592163947/CA4FE0C0F56B2DA171B48F0C6171D1863F8A44FF/' wrapped ui={false} />
               <Card.Content>
                 <Card.Header>Game Screenshots</Card.Header>
               </Card.Content>
             </Card>
           </Grid.Column>
           <Grid.Column className='gallery-coloumn'>
-            <Card onClick={() => setPhotosModal(true)} link>
-              <Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' wrapped ui={false} />
+            <Card style={{background: 'silver'}} onClick={() => setPhotosModal(true)} link>
+              <Image src='https://drive.google.com/uc?export=download&id=1B4gxoifz1aXOMRdCsDrq7JQzX3nNm9WN' wrapped ui={false} />
               <Card.Content>
-                <Card.Header>Photos</Card.Header>
+                <Card.Header>Landscape Photos</Card.Header>
               </Card.Content>
             </Card>
           </Grid.Column>
