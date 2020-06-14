@@ -1,19 +1,17 @@
-.skill-cards{
-    background-color: silver !important;
-    margin-top: 1rem !important;
-    margin-left: 1rem !important;
-    margin-right: 1rem !important;
+.skill-cards {
+  background-color: silver !important;
+  margin-top: 1rem !important;
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
 }
 
-
-
-.tech-container{
-    max-width: 1000px;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    margin-top: 2rem !important;
+.tech-container {
+  max-width: 1000px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 2rem !important;
 }
 
 .ui.card:last-child.skill-cards {
-    margin-bottom: 0c;
+  margin-bottom: 1em;
 }
