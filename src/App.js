@@ -7,6 +7,7 @@ import HeadBanner from './components/head-banner';
 import About from './components/about';
 import TechSkills from './components/skills';
 import Gallary from './components/gallary';
+import ContactMe from './components/contact';
 
 function App() {
   return (
@@ -37,7 +38,14 @@ function App() {
               <Gallary />
             </Element>
           </Grid.Column>
-        </Grid.Row>       
+        </Grid.Row>     
+        <Grid.Row>
+          <Grid.Column>
+            <Element id="contact" name="contact" className="element">
+              <ContactMe />
+            </Element>
+          </Grid.Column>
+        </Grid.Row>     
       </Grid>
     </div>
   );
