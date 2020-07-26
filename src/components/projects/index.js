@@ -19,7 +19,7 @@ const Projects = () => {
       <>
         <div className="Screen-Container">
           <Header as='h1' size='massive' color='orange'>Projects that I have done!</Header>
-          <Grid>
+          <Grid style={{marginTop: '2rem'}}>
             {githubRepos &&  githubRepos.map(item => (
               <Card key={item.id} target='_blank' rel='noopener noreferrer' href={item.html_url} className='skill-cards'>
                 <Card.Content>
