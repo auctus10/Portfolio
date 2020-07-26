@@ -8,6 +8,7 @@ import About from './components/about';
 import TechSkills from './components/skills';
 import Gallary from './components/gallary';
 import ContactMe from './components/contact';
+import Projects from './components/projects';
 
 function App() {
   return (
@@ -31,7 +32,14 @@ function App() {
               <TechSkills />
             </Element>
           </Grid.Column>
-        </Grid.Row>     
+        </Grid.Row> 
+        <Grid.Row>
+          <Grid.Column>
+            <Element id="projects" name="projects" className="element">
+              <Projects />
+            </Element>
+          </Grid.Column>
+        </Grid.Row>        
         <Grid.Row>
           <Grid.Column>
             <Element id="gallery" name="gallery" className="element">
