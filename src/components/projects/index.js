@@ -3,6 +3,7 @@ import { Header, Grid, Card, Image } from 'semantic-ui-react';
 import axios from 'axios';
 
 import githubImg from '../../assets/github-icon.webp';
+import './index.css';
 
 const Projects = () => {
   const [githubRepos, setGithubRepos] = useState([]);
@@ -19,7 +20,7 @@ const Projects = () => {
       <>
         <div className="Screen-Container">
           <Header as='h1' size='massive' color='orange'>Projects that I have done!</Header>
-          <Grid style={{marginTop: '2rem'}}>
+          <Grid className='project-container'>
             {githubRepos &&  githubRepos.map(item => (
               <Card key={item.id} target='_blank' rel='noopener noreferrer' href={item.html_url} className='skill-cards'>
                 <Card.Content>

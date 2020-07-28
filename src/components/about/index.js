@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div id="about" className="Screen-Container">
       <Header as='h1' size='massive' color='orange'>About me!</Header>
-      <Container text className='text-container'>
+      <Container textAlign='left' text className='text-container'>
         <p>
           Hi! My name is Atin, although my family mostly call me Naman which is my pet name. 
           I am a 24 year old programmer and currently work as a software developer for a company called Primus software.

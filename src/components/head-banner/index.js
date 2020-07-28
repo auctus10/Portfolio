@@ -12,17 +12,17 @@ const HeadBanner = () => {
        <div className="head-banner">
          <Image className="profile-image" src={require('../../assets/atin.jpg')} size='medium' circular />
          <div className="content-container">
-           <Header style={{fontSize: '2.5rem', cursor: 'context-menu'}} as='h1' size="massive" color='orange'>Atin Kumar Singh</Header>
+           <Header style={{fontSize: 'calc(1.5rem + 1vh)', cursor: 'context-menu'}} as='h1' size="massive" color='orange'>Atin Kumar Singh</Header>
            <Typist style={{margin: '0.6rem'}} cursor={{ show: false }}>
-             <span style={{color: 'white', fontSize: '1.3rem', cursor: 'context-menu'}}>
+             <span style={{color: 'white', fontSize: 'calc(0.75rem + 1vmin)', cursor: 'context-menu'}}>
                console.
-               <span style={{color:'#3182ce'}}>log</span>
+               <span style={{color:'#3182ce', fontSize: 'calc(0.75rem + 1vmin)'}}>log</span>
                (
-               <span style={{color: '#f2711c', fontSize: '1.3rem'}}> Hello, Welcome to my website! </span>
+               <span style={{color: '#f2711c', fontSize: 'calc(0.75rem + 1vmin)'}}> Hello, Welcome to my website! </span>
                );
              </span>
            </Typist>
-           <List style={{margin: '1rem', color: '#e8eaf6'}} horizontal>
+           <List style={{marginTop: '1rem', color: '#e8eaf6'}} horizontal>
              {detailList.map((i, index) =>   (
                <>
                  {index === 0 ? '': <span style={{cursor: 'context-menu'}} className="screen-links">|</span>}
