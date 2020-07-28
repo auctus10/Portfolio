@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Atin Singh",
   "user": "auctus10",
-  "homepage": "https://auctus10.github.io/Portfolio",
+  "homepage": "https://auctus10.github.io/portfolio",
   "private": true,
   "lint-staged": {
     "*.{js,jsx}": [
