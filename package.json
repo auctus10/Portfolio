@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Atin Singh",
   "user": "auctus10",
-  "homepage": "https://auctus10.github.io/portfolio",
+  "homepage": "https://auctus10.github.io/Portfolio",
   "private": true,
   "lint-staged": {
     "*.{js,jsx}": [
@@ -40,6 +40,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

@@ -22,7 +22,7 @@ const Projects = () => {
           <Header as='h1' size='massive' color='orange'>Projects that I have done!</Header>
           <Grid className='project-container'>
             {githubRepos &&  githubRepos.map(item => (
-              <Card key={item.id} target='_blank' rel='noopener noreferrer' href={item.html_url} className='skill-cards'>
+              <Card key={item.id} target='_blank' rel='noopener noreferrer' href={item.html_url} className='project-cards'>
                 <Card.Content>
                   <Image
                     style={{marginBottom: '1rem'}}

@@ -1,6 +1,17 @@
 .project-container {
-    max-width: 1000px;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    margin-top: 2rem !important;
-  }
+  max-width: 1000px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 2rem !important;
+}
+
+.project-cards {
+  background-color: silver !important;
+  margin-top: 1rem !important;
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+}
+
+.ui.card:last-child.project-cards {
+  margin-bottom: 1em;
+}
