@@ -3,6 +3,7 @@
   background: #212121;
   overflow: auto;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 /* .head-banner{
