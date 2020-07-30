@@ -1,5 +1,8 @@
 import React from 'react';
-import { Header, Container } from 'semantic-ui-react';
+// import { animateScroll as scroll } from 'react-scroll'
+import { Header, Container, Button, Icon } from 'semantic-ui-react';
+
+import Atin from '../../assets/Atin.docx';
 
 import './index.css'
 
@@ -12,6 +15,17 @@ const ContactMe = () => {
             <p style={{margin: 'auto'}}>Get in touch with me by e-mailing me at:</p>
             <p><a href="mailto: atin1996io@gmail.com">atin1996io@gmail.com</a></p>
           </Container>
+          <Header as='h3' size='massive' color='orange'>Check Out my CV!</Header>
+          <Button style={{ marginBottom: '2rem', backgroundColor: 'darkgray'}} icon labelPosition='left'> 
+            {' '}
+            <Icon name='download' />
+            <a href={Atin} style={{color: 'currentColor'}} download="Atin.docx">Download CV</a>
+          </Button>
+          {/* <Button
+            circular
+            icon='angle up' 
+            onClick={() => scroll.scrollToTop()}
+          /> */}
         </div>
        
       </>
