@@ -5,12 +5,13 @@ import Typist from 'react-typist';
 
 import './index.css';
 import detailList from './detailList';
+import ProfilePhoto from '../../assets/profilepic.jpg'
 
 const HeadBanner = () => {
    return (
      <>
        <div className="head-banner">
-         <Image className="profile-image" src={require('../../assets/atin.jpg')} size='medium' circular />
+         <Image className="profile-image" src={ProfilePhoto} size='medium' circular />
          <div className="content-container">
            <Header style={{fontSize: 'calc(1.5rem + 1vh)', cursor: 'context-menu'}} as='h1' size="massive" color='orange'>Atin Kumar Singh</Header>
            <Typist style={{margin: '0.6rem'}} cursor={{ show: false }}>
