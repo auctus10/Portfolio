@@ -11,7 +11,6 @@ import ContactMe from './components/contact';
 import Projects from './components/projects';
 
 function App() {
-  console.log('test');
   return (
     <div className="App">
       <Grid relaxed>
@@ -24,7 +23,7 @@ function App() {
               <About />
             </Element>
             {' '}
-    
+ 
           </Grid.Column>
         </Grid.Row>
         <Grid.Row>
