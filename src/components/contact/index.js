@@ -2,7 +2,7 @@ import React from 'react';
 // import { animateScroll as scroll } from 'react-scroll'
 import { Header, Container, Button, Icon } from 'semantic-ui-react';
 
-import Atin from '../../assets/Atin.docx';
+import Atin from '../../assets/atin.pdf';
 
 import './index.css'
 
@@ -19,7 +19,7 @@ const ContactMe = () => {
           <Button style={{ marginBottom: '2rem', backgroundColor: 'darkgray'}} icon labelPosition='left'> 
             {' '}
             <Icon name='download' />
-            <a href={Atin} style={{color: 'currentColor'}} download="Atin.docx">Download CV</a>
+            <a href={Atin} style={{color: 'currentColor'}} download="Atin.pdf">Download CV</a>
           </Button>
           {/* <Button
             circular
