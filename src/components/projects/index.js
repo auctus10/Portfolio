@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { Header, Grid, Card, Image, Label, Icon } from 'semantic-ui-react';
+import { Header, Grid, Card, Image } from 'semantic-ui-react';
 import axios from 'axios';
 
 import githubImg from '../../assets/github-icon.webp';
@@ -35,13 +35,6 @@ const Projects = () => {
                     {item.description}
                     {' '}
                   </Card.Description>
-                  {item.homepage ? ( 
-                    <Label target='_blank' rel='noopener noreferrer' href={item.html_url} as='a'>
-                      <Icon name='play' />
-                      {' '}
-                      Demo
-                    </Label>
-                  ) : ''}               
                 </Card.Content>
               </Card>
               ))}
